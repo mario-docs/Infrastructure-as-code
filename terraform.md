@@ -11,7 +11,7 @@
 
 - A tool for **infrastructure provisioning**, **managing existing infrastructure**, and **replicating infrastructure**.
 
-## Tool for infrastructure provisioning
+### Tool for infrastructure provisioning
 > So, you've started a project, and now you want to set up your infrastructure from scratch on which the application wil run. Alsp, you decided to use AWS platform to build you whole infrastructure on. And as you'll see, there will be two different tasks, or two seperate steps of creating the whole setup. One is Infrastructure provisioning (or preparing everything so that the application can be deployed), and the other is actually Application deployment - so you might even have two seperate teams which will perform these two tasks. 
   
 - A possible scenario - DevOps team configures infrastructure, and developers then deploy applications onto the prepared infrastructure
@@ -21,13 +21,13 @@
 	* Install Docker
 	* Spin up servers
 	
-### 1-Prepare infrastructure: 
+#### 1-Prepare infrastructure: 
  1. (Create) Private network space
  2. (Create) EC2 server instances 
  3. Install Docker and other tools
  4. (Setup) Security (on your servers)
  
-### 2-Deploy applications
+#### 2-Deploy applications
 * Once the infrastructure is prepared you can now deploy your Docker applications or Docker containers on that prepared infrastructure
 * Terraform vs Anible:
 	* **Terraform**: mainly infrastructure provisioning tool, but it also has capabilities to depoly applications in other tools on that infrastructure
