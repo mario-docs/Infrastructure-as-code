@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## Infrastructure as code (**IaC**)
+Everything you have to know about Infrastructure-as-code in one place.
 
-You can use the [editor on GitHub](https://github.com/mario-docs/infrastructure-as-code/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+  - "*the process of managing and provisioning computer data centers through machine-redable definition files, rather than physical hardware configuration or interactive configuration tools ([Wikipedia](https://en.wikipedia.org/wiki/Infrastructure_as_code)).*"
+  - "*the management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same versioning as DevOps team uses for source code. Like the principle that the same source code generates the same binary, an IaC model generates the same environment every time it is applied. IaC is a key DevOps practice and is used in conjunction with continuous delivery.* ([docs.microsoft](https://docs.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code))"
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mario-docs/infrastructure-as-code/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Infrastructure as code includes:
+  - **Configuration Management** - Ansible, Puppet, Chef, Salt Stack
+  - **Container** - Docker, rkt, LXC
+  - **Container Orchestrator** - Kubernetes, Openshift, NoMad, Docker Swarm
+  - **Infrastructure Provisioning** - [Terraform](terraform.md), AWS Cloudformation, Azure template, Google Deployment Manager
