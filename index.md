@@ -8,6 +8,6 @@
 + Infrastructure as code includes:
   - **Configuration Management** - Ansible, Puppet, Chef, Salt Stack
   - **Container** - Docker, rkt, LXC
-  - **Container Orchestrator** - Kubernetes, Openshift, NoMad, Docker Swarm
+  - **Container Orchestrator** - [Kubernetes](kubernetes.md), Openshift, NoMad, Docker Swarm
   - **Infrastructure Provisioning** - [Terraform](/terraform.md), AWS Cloudformation, Azure template, Google Deployment Manager
 
